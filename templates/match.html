@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Matcher</title>
+</head>
+<body>
+    <h1>Resume Matcher</h1>
+    <form method="POST">
+        <textarea name="job_description" rows="8" cols="80" placeholder="Paste job description here..."></textarea><br><br>
+        <textarea name="resume" rows="8" cols="80" placeholder="Paste resume here..."></textarea><br>
+        <button type="submit">Match</button>
+    </form>
+    {% if experience_phrases %}
+        <h2>Experience Requirements</h2>
+        <ul>
+            {% for phrase in experience_phrases %}
+                <li>{{ phrase }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    {% if match_stats %}
+        <h2>Resume Match Results</h2>
+        <ul>
+            {% for category, stats in match_stats.items() %}
+                <li>
+                    <b>{{ category.title() }}:</b> {{ stats[0] }}% match
+                    <ul>
+                        <li>✅ Matched: {{ stats[1]|join(", ") if stats[1] else 'None' }}</li>
+                        <li>❌ Missing: {{ stats[2]|join(", ") if stats[2] else 'None' }}</li>
+                    </ul>
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    <br>
+    <a href="/">← Go to Keyword Analyzer</a>
+</body>
+</html>

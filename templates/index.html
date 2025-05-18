@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Job Analyzer</title>
+    <title>Keyword Analyzer</title>
 </head>
 <body>
-    <h1>Paste a Job Description</h1>
+    <h1>Keyword Analyzer</h1>
     <form method="POST">
-        <textarea name="job_description" rows="10" cols="80" placeholder="Paste job description here..."></textarea><br><br>
+        <textarea name="job_description" rows="10" cols="80" placeholder="Paste job description here..."></textarea><br>
         <button type="submit">Analyze</button>
     </form>
-
     {% if keywords %}
         <h2>Top Keywords</h2>
         <ul>
@@ -19,5 +17,15 @@
             {% endfor %}
         </ul>
     {% endif %}
+    {% if experience_phrases %}
+        <h2>Experience Requirements</h2>
+        <ul>
+            {% for phrase in experience_phrases %}
+                <li>{{ phrase }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    <br>
+    <a href="/match">Go to Resume Matcher →</a>
 </body>
 </html>

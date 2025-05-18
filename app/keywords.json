@@ -1,0 +1,36 @@
+{
+  "tool_keywords": [
+    "aws", "azure", "gcp", "s3", "ec2", "lambda", "cloudwatch", "iam", "rds", "route53", "elasticache",
+    "docker", "kubernetes", "terraform", "ansible", "chef", "puppet", "jenkins", "github", "gitlab", "bitbucket", "circleci", "travisci",
+    "datadog", "newrelic", "prometheus", "grafana", "splunk", "logstash", "elk", "sentry",
+    "jira", "confluence", "notion", "slack", "teams",
+    "postgresql", "mysql", "mariadb", "sqlserver", "sqlite", "mongodb", "cassandra", "dynamodb", "elasticsearch", "redis",
+    "airflow", "snowflake", "bigquery", "athena", "powerbi", "tableau", "looker",
+    "firebase", "supabase", "amplify", "vscode", "eclipse", "intellij", "pycharm", "xcode", "android studio",
+    "ci", "cd", "ci/cd", "pipelines", "nginx", "apache", "iis", "kafka", "rabbitmq", "zookeeper",
+    "vault", "sonarqube", "veracode", "cloudflare", "akamai"
+  ],
+  "tech_keywords": [
+    "python", "java", "javascript", "typescript", "html", "css", "scss", "less", "sql", "nosql",
+    "c", "c++", "c#", "go", "rust", "ruby", "php", "kotlin", "scala", "swift", "r", "perl", "matlab", "shell",
+    "bash", "powershell", "assembly", "haskell", "elixir", "lua",
+    "react", "angular", "vue", "nextjs", "nuxt", "svelte", "jquery", "bootstrap", "tailwind",
+    "node", "express", "django", "flask", "fastapi", "spring", "dotnet", "asp.net", "rails", "laravel",
+    "graphql", "rest", "soap", "http", "https", "json", "xml", "sockets", "websockets", "rpc", "mqtt",
+    "oop", "fp", "multithreading", "async", "concurrency", "parallelism", "design patterns", "tdd", "bdd", "unit testing", "integration testing", "e2e testing",
+    "microservices", "monolith", "serverless", "event-driven", "distributed systems", "architecture", "scalability", "performance",
+    "machine learning", "deep learning", "ai", "nlp", "cv", "llm", "chatgpt", "pytorch", "tensorflow", "sklearn", "pandas", "numpy", "matplotlib", "seaborn", "xgboost", "lightgbm", "catboost",
+    "big data", "hadoop", "spark", "kafka", "hive", "pig", "flink", "beam", "etl", "data lake", "data warehouse", "data engineering", "analytics", "bi",
+    "cloud", "devops", "infra", "observability", "monitoring", "logging", "container", "orchestration", "build system", "deployment", "pipelines",
+    "backend", "frontend", "fullstack", "api", "sdk", "cli", "ide", "tooling", "debugging", "optimization", "security", "auth", "oauth", "jwt"
+  ],
+  "soft_skills": [
+    "communication", "collaboration", "teamwork", "leadership", "problem-solving", "time management",
+    "adaptability", "critical thinking", "creativity", "responsibility", "initiative", "work ethic",
+    "attention to detail", "accountability", "decision making", "presentation", "negotiation", "mentoring",
+    "ownership", "organization", "empathy", "coaching", "confidence", "independence", "feedback",
+    "flexibility", "curiosity", "self-motivation", "resilience", "reliability", "transparency",
+    "humility", "patience", "conflict resolution", "persuasion", "constructive criticism",
+    "active listening", "respect", "emotional intelligence", "goal setting", "strategic thinking"
+  ]
+}
